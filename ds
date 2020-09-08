@@ -1,0 +1,7 @@
+#imports math library
+import math
+
+r=float(input('Input the radius of the circle:'))
+#math.pi imports value of pi from math library
+a=r*r*(math.pi)
+print('The area of the circle with radius',r,'is:',a)
